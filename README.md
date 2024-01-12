@@ -38,6 +38,11 @@ notebook-7.0.6
 
 El modelo de Yu et al. junto con el inception de Google están en el directorio modelos/Yu_meancher_model/
 
+### Pesos
+
+Los pesos son demasiado grandes para github. Se deben descargar de https://cloud.iac.es/index.php/s/feaDGetcSaBwTb3 y poner el en directorio arriba
+indicado (modelos/Yu_meancher_model/)
+
 ## Datos de prueba
 
 Se han descargado algunas imágenes de patches tumorales (TUM) y no-tumorales o normales (NORM) del archivo NCT-CRC-HE-100K-NONORM (SIN normalizar).
