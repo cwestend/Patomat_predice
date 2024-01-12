@@ -30,7 +30,8 @@ ipython-8.20.0
 cudatoolkit-11.8.0, cudnn-8.9.2.26
 tensorflow-2.12.1
 keras-2.12.0 
-jupyterlab-4.0.10 
+jupyterlab-4.0.10
+notebook-7.0.6 
 ```
 
 ## Modelo
