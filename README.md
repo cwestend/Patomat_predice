@@ -5,7 +5,7 @@ Análisis del modelo de Yu et al. "Accurate recognition of colorectal cancer wit
 El modelo es el provisto por los autores (https://zenodo.org/records/5524324#.YU09Ny-KFLY), entrenado con los datos que ellos proveen en 
 https://figshare.com/articles/dataset/Colorectal_cancer_datasets_of_semi-supervised_deep_learning/15072546/1 (CRC.zip).
 
-Se pretende demostrar la predicción sobre datos independientes del Dataset-PAT (NCT-CRC-HE-100K) del "NCT biobank and the UMM pathology archive: NCT-UMM, National Center for Tumor diseases, University Medical Center Mannheim, Heidelberg University, Germany" https://zenodo.org/records/1214456#.XV2cJeg3lhF.
+Se pretende demostrar la predicción sobre datos independientes del Dataset-PAT (NCT-CRC-HE-100K-NONORM) del "NCT biobank and the UMM pathology archive: NCT-UMM, National Center for Tumor diseases, University Medical Center Mannheim, Heidelberg University, Germany" https://zenodo.org/records/1214456#.XV2cJeg3lhF.
 
 ## Entorno
 Para instalar el entorno con las versiones que usamos en Patomat, lo más sencillo es proceder de la forma:
@@ -39,7 +39,7 @@ El modelo de Yu et al. junto con el inception de Google están en el directorio 
 
 ## Datos de prueba
 
-Se han descargado algunas imágenes de patches tumorales (TUM) y no-tumorales o normales (NORM) del archivo NCT-CRC-HE-100K (SIN normalizar).
+Se han descargado algunas imágenes de patches tumorales (TUM) y no-tumorales o normales (NORM) del archivo NCT-CRC-HE-100K-NONORM (SIN normalizar).
 Hay 100.000 imágenes de 224x224 pixeles que deben ser reescaladas y normalizadas para que el modelo pueda procesarlas y predecir si son positivas o no.
 
 Las predicciones son un vector de 4 valores (2 para el teacher y 2 para el student). Tomamos el primero y el criterio elegido es si el segundo valor es cercano a 1 será 
