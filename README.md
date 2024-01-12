@@ -45,6 +45,8 @@ Hay 100.000 imágenes de 224x224 pixeles que deben ser reescaladas y normalizada
 Las predicciones son un vector de 4 valores (2 para el teacher y 2 para el student). Tomamos el primero y el criterio elegido es si el segundo valor es cercano a 1 será 
 una detección positiva (cáncer o tumoral) y si es cero será negativa (no-cáncer o normal). El criterio elegido es si ese segundo valor es mayor que 0.5 o inferior a 0.5.
 
+NOTA: Al ser datos con diferentes tintes y de zonas no conocidas (no se tiene el porta entero) algunas detecciones pueden fallar. En general si aciertan con el etiquetado, pero no es el 100%.
+
 ## Notebook para predecir
 
 En el sguiente notebook está el código para demostrar las predicciones sobre los datos de prueba.
