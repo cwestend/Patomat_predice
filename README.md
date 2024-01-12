@@ -55,7 +55,7 @@ NOTA: Al ser datos con diferentes tintes y de zonas no conocidas (no se tiene el
 
 ## Notebook para predecir
 
-En el sguiente notebook está el código para demostrar las predicciones sobre los datos de prueba.
-
+En el sguiente notebook está el código para demostrar las predicciones sobre los datos de prueba:
+https://github.com/cwestend/Patomat_predice/blob/main/predict.ipynb
  
 
